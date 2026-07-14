@@ -33,9 +33,9 @@ Concatenation can be though of appending a row or column to your data.
 
 import pandas as pd
 
-df1 = pd.read_csv('../data/concat_1.csv')
-df2 = pd.read_csv('../data/concat_2.csv')
-df3 = pd.read_csv('../data/concat_3.csv')
+df1 = pd.read_csv('../data/concat-1.csv')
+df2 = pd.read_csv('../data/concat-2.csv')
+df3 = pd.read_csv('../data/concat-3.csv')
 
 print( df1 )
 #    A   B   C   D

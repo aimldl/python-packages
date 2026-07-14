@@ -37,10 +37,10 @@ names = scientists['Name']
 #################
 
 # Save a series into a CSV
-names.to_csv('../output/scientists_names_series.csv')
+names.to_csv('../output/scientists-names-series.csv')
 
 # Save a datafrma into a TSV (Tab-Separated Value)
-scientists.to_csv('../output/scientists_dataframe.csv', sep='\t')
+scientists.to_csv('../output/scientists-dataframe.csv', sep='\t')
 
 #############################################
 # 2.6.2.1. Removing Row Numbers From Output #
@@ -60,7 +60,7 @@ scientists.to_csv('../output/scientists_dataframe.csv', sep='\t')
 #
 # Keep in mind that this column is really saving the row label.
 # To remove the row label, use index=False.
-names.to_csv('../output/scientists_names_series_no_index.csv', index=False)
+names.to_csv('../output/scientists-names-series-no-index.csv', index=False)
 #Rosaline Franklin
 #William Gosset
 #Florence Nightingale
@@ -70,4 +70,4 @@ names.to_csv('../output/scientists_names_series_no_index.csv', index=False)
 #Alan Turing
 #Johann Gauss
 
-scientists.to_csv('../output/scientists_dataframe_no_index.csv', index=False)
+scientists.to_csv('../output/scientists-dataframe-no-index.csv', index=False)

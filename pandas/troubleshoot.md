@@ -1,5 +1,3 @@
-* Draft: 2020-11-09
-
 # ValueError: Trailing data
 
 ## Problem
@@ -34,4 +32,3 @@ JSON 파일의 내용이 1줄 이상일 때 발생하는 에러입니다.
 ```python
 file = pd.read_json( input_jsonl_file, lines=True )
 ```
-

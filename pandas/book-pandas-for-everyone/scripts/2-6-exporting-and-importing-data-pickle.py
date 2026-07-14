@@ -44,18 +44,18 @@ print( names )
 #6             Alan Turing
 #7            Johann Gauss
 
-names.to_pickle('../output/scientists_names_series.pickle')
+names.to_pickle('../output/scientists-names-series.pickle')
 
 #####################
 # 2.6.1.2 DataFrame #
 #####################
-scientists.to_pickle('../output/scientists_dataframe.pickle')
+scientists.to_pickle('../output/scientists-dataframe.pickle')
 # The file name in the book is 'scientists_df.pickle'
 
 ###############################
 # 2.6.1.3 Reading pickle Data #
 ###############################
-scientist_names_from_pickle = pd.read_pickle('../output/scientists_names_series.pickle')
+scientist_names_from_pickle = pd.read_pickle('../output/scientists-names-series.pickle')
 print( scientist_names_from_pickle )
 #0       Rosaline Franklin
 #1          William Gosset
@@ -67,7 +67,7 @@ print( scientist_names_from_pickle )
 #7            Johann Gauss
 #Name: Name, dtype: object
 
-scientists_from_pickle = pd.read_pickle('../output/scientists_dataframe.pickle')
+scientists_from_pickle = pd.read_pickle('../output/scientists-dataframe.pickle')
 print( scientists_from_pickle )
 #                   Name        Born        Died  Age          Occupation
 #0     Rosaline Franklin  1920-07-25  1958-04-16   37             Chemist
